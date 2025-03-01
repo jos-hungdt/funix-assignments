@@ -1,0 +1,39 @@
+[E1]
+Experiment array: [20.0 ; 19.0 ; 18.0 ; 17.0 ; 16.0 ; 15.0 ; 14.0 ; 13.0 ; 12.0 ; 11.0 ; 10.0 ; 9.0 ; 8.0 ; 7.0 ; 6.0 ; 5.0 ; 4.0 ; 3.0 ; 2.0 ; 1.0]
+[INFO] Bubble sort execution time = 10802
+[INFO] Selection sort execution time = 7601
+[INFO] Insertion sort execution time = 8901
+
+[E2]
+Experiment array: [1.0 ; 2.0 ; 3.0 ; 4.0 ; 5.0 ; 6.0 ; 7.0 ; 8.0 ; 9.0 ; 10.0 ; 11.0 ; 12.0 ; 13.0 ; 14.0 ; 15.0 ; 16.0 ; 17.0 ; 18.0 ; 19.0 ; 20.0]
+[INFO] Bubble sort execution time = 10102
+[INFO] Selection sort execution time = 7502
+[INFO] Insertion sort execution time = 5101
+
+[E3]
+Experiment array: [8.0 ; 11.0 ; 9.0 ; 12.0 ; 10.0 ; 3.0 ; 14.0 ; 17.0 ; 19.0 ; 20.0 ; 4.0 ; 7.0 ; 13.0 ; 1.0 ; 1.0 ; 15.0 ; 2.0 ; 16.0 ; 5.0 ; 6.0]
+[INFO] Bubble sort execution time = 11902
+[INFO] Selection sort execution time = 8201
+[INFO] Insertion sort execution time = 6801
+
+[E4]
+Experiment array: [3.5 ; 7.2 ; 10.8 ; 0.45 ; 2.3 ; 8.9 ; 4.7 ; 6.6 ; 9.1 ; 3.4 ; 7.8 ; 1.5 ; 2.2 ; 5.9 ; 8.3 ; 10.6 ; 8.75 ; 1.4 ; 11.2 ; 12.6]
+[INFO] Bubble sort execution time = 9399
+[INFO] Selection sort execution time = 9099
+[INFO] Insertion sort execution time = 6299
+
+[E5]
+Experiment array: [4.8 ; 2.1 ; 7.3 ; 9.5 ; 0.3 ; 12.4 ; 6.1 ; 5.5 ; 8.2 ; 3.7 ; 1.9 ; 2.4 ; 10.6 ; 1.2 ; 4.4 ; 0.0 ; 3.8 ; 7.9 ; 9.7 ; 6.3]
+[INFO] Bubble sort execution time = 9696
+[INFO] Selection sort execution time = 7297
+[INFO] Insertion sort execution time = 6297
+
+-----------------------------------
+NHẬN XÉT
+Ba thuật toán được kiểm tra bằng 5 ví dụ, trong đó có một mảng sắp xếp từ lớn đến bé (E1), một mảng đã được sắp xếp theo thứ tự nhỏ đến lớn (E2) và các mảng còn lại theo thứ tự ngẫu nhiên:
+	- Đối với Thuật toán sắp xếp nổi bọt Bubble sort, hiệu suất của thuật toán này khá kém, luôn đạt hiệu suất kém nhất trong so với hai thuật toán còn lại.
+
+	- Đối với Selection sort, hiệu suất của thuật toán này khá tốt, trường hợp mảng được sắp xếp hoàn toàn từ lớn đến bé, thuật toán này đạt hiệu suất tốt nhất so với hai thuật toán còn lại.
+	
+	- Với Insertion sort, trong 5 trường hợp được thử nghiệm, đây là thuật toán có hiệu suất tốt nhất. 
+
