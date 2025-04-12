@@ -1,0 +1,299 @@
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 1
+[INFO]: Read data file to Linked List and Display to the screen.
+[INFO]: begin loading data from "/home/anonymous/Projects/CSD201x_ASM2/src/assets/data.txt".
+[INFO]: success loading data to Linked List
+Product [id=6, name=Product 6, price=606.5, number=123]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 2
+>>> Enter new product id: 1
+[WARN]: Product ID already exist. 
+>>> Re-enter new product id: 2
+[WARN]: Product ID already exist. 
+>>> Re-enter new product id: 7
+>>> Enter new product name: Product 7
+>>> Enter new product price: 707.12
+>>> Enter available number of products: 7
+[INFO]: Linked List after adding new product.
+Product [id=6, name=Product 6, price=606.5, number=123]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+Product [id=7, name=Product 7, price=707.12, number=7]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 3
+[INFO]: Display all products in the Linked List.
+Product [id=6, name=Product 6, price=606.5, number=123]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+Product [id=7, name=Product 7, price=707.12, number=7]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 4
+[INFO]: start writting Linked List to "/home/anonymous/Projects/CSD201x_ASM2/src/assets/data.txt" file.
+[INFO]: success writting Linked List to file.
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 5
+[INFO]: search product by id.
+>>> Enter id (number): 6
+-> Result: Product [id=6, name=Product 6, price=606.5, number=123]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 5
+[INFO]: search product by id.
+>>> Enter id (number): 9
+-1
+[INFO]: Not found such a product!
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 6
+[INFO]: delete product by id.
+>>> Enter id (number) to be deleted: 7
+[INFO]: Product to be delete Product [id=7, name=Product 7, price=707.12, number=7]at index = 7
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 3
+[INFO]: Display all products in the Linked List.
+Product [id=6, name=Product 6, price=606.5, number=123]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 7
+[INFO]: LinkedList After sorting:
+Product [id=1, name=Product 1, price=100.0, number=1000]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=6, name=Product 6, price=606.5, number=123]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 8
+1111101000
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 9
+[INFO]: begin loading data from "/home/anonymous/Projects/CSD201x_ASM2/src/assets/data.txt" to stack.
+[INFO]: success loading data to Stack
+Product [id=7, name=Product 7, price=707.12, number=7]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=6, name=Product 6, price=606.5, number=123]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 10
+[INFO]: begin loading data from "/home/anonymous/Projects/CSD201x_ASM2/src/assets/data.txt" to queue.
+[INFO]: success loading data to Queue
+Product [id=6, name=Product 6, price=606.5, number=123]
+Product [id=5, name=Product 5, price=505.3, number=12]
+Product [id=4, name=Product 4, price=404.0, number=4440]
+Product [id=3, name=Product 3, price=303.3, number=333]
+Product [id=2, name=Product 2, price=200.2, number=2222]
+Product [id=1, name=Product 1, price=100.0, number=1000]
+Product [id=7, name=Product 7, price=707.12, number=7]
+
++-------------------------------------------------------------------+
+|   [1]: Read data file to Linked List and Display to the screen.   |
+|   [2]: Add a Product to the end of Linked List.                   |
+|   [3]: Display all Products in the Linked List.                   |
+|   [4]: Save all Products in the Linked List to the data file.     |
+|   [5]: Search product by id.                                      |
+|   [6]: Delete product by id.                                      |
+|   [7]: Sort products by id.                                       |
+|   [8]: Represent the number of products (in base 10 counting sys- |
+|        tem) of the first element in the Linked List in binary u-  |
+|        sing recusive method.                                      |
+|   [9]: Read data file to Stack and Display to the screen.         |
+|   [10]: Read data file to Queue and Display to the screen.        |
+|   [0]: Exit.                                                      |
++-------------------------------------------------------------------+
+>>> Enter your option: 0
+>_ Exiting application...
