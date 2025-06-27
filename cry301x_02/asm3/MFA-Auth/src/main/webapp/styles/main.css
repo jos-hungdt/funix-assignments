@@ -1,0 +1,215 @@
+@charset "utf-8";
+/** {*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body{color:#000000;background-color:#0054b8; margin:10;padding:5;font-size:120%;}*/
+
+/*!* Login page form styles *!*/
+/*.form-ul li*/
+/*{*/
+/*    display:block;*/
+/*    list-style: none;*/
+/*}*/
+
+/*.form-ul label*/
+/*{*/
+/*    display:block;*/
+/*    font-weight:bold;*/
+/*}*/
+
+/*.form-ul input[type="email"], input[type="password"]*/
+/*{*/
+/*    width:75%;*/
+/*    margin: 5px 0px 5px 0px;*/
+/*}*/
+
+/*.form-ul input[type="submit"]*/
+/*{*/
+/*    margin:5px 0px 5px 0px;*/
+/*    font-weight:bold;*/
+/*    font-size:100%;*/
+/*}*/
+
+/*.webformdiv*/
+/*{*/
+/*    max-width:380px;*/
+/*    margin: 50px auto;*/
+/*    background-color:#c9dbf0;*/
+/*    padding:10px;*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    border-color: #ffffff;*/
+
+/*}*/
+
+/*.formheader*/
+/*{*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.ch*/
+/*{*/
+/*    font-size:90%;*/
+/*}*/
+
+/*!*Style for footer *!*/
+/*.bottom*/
+/*{*/
+/*    font-size:80%;*/
+/*    max-width:380px;*/
+/*    margin: 0 auto;*/
+/*    padding:5px;*/
+/*}*/
+
+/*!* Main body styles for each page *!*/
+/*.mainbody*/
+/*{*/
+/*    max-width:80%;*/
+/*    margin: 30px auto;*/
+/*    background-color: #c9dbf0;*/
+/*    padding:5px;*/
+/*    border-radius:15px;*/
+/*    border-style: solid;*/
+/*    border-width: 1px;*/
+/*    border-color: #ffffff;*/
+/*}*/
+
+
+/** NEW **/
+.body-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.webformdiv {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formheader h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.form-ul li {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px 0;
+    color: #666;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.bottom p {
+    margin: 0;
+}
+
+/* Status message div */
+.settingmsg
+{
+    color:#ff3f42;
+    font-weight:bold;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.nav-list a:hover {
+    color: #0056b3;
+    background-color: white;
+    border-radius: 4px;
+}
